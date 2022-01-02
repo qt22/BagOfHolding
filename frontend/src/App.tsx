@@ -1,7 +1,12 @@
-import React from 'react'
+import Home from './components/home/home.tsx';
 
 function App() {
-    return <div>hello world</div>
+    return (
+        <div>
+            hello world
+            <Home />
+        </div>
+    );
 }
 
-export default App
+export default App;
