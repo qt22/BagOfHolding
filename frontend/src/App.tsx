@@ -6,8 +6,8 @@ import Layout from './components/layout/layout';
 const App = () => (
     <Router>
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/layout" element={<Layout/>} />
+            <Route path="/" element={<Home />} />
+            <Route path="/layout" element={<Layout />} />
         </Routes>
     </Router>
 );
